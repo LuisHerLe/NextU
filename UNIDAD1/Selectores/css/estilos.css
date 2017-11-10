@@ -1,0 +1,28 @@
+body{
+
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: verdana;
+}
+
+.resaltado{
+  background-color: yellow;
+}
+
+.titulo{
+  background-color: aliceblue;
+  text-align: center;
+  padding: 10px;
+}
+
+footer{
+  border-top: 1px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#menu-principal{
+  padding: 10px 0px;
+}
