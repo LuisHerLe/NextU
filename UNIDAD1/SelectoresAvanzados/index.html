@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registro en nuestra tienda</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=width-device,scalable=no">
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body>
+    <h1>Registro en nuestra tienda</h1>
+    <form>
+      <fieldset>
+        <p><label for="L_username">Nombre de Usuario:</label> </br>
+          <input type="text" name="NombreUsuario" placeholder="Ej: Luis">
+        </p>
+        <p><label for="L_email">Email:</label></br>
+          <input type="email" name="email" placeholder="Ej: luis@gmail.com" required>
+        </p>
+        <p><label for="L_yearsOld">Edad:</label></br>
+          <input type="text" name="YearsOld" required>
+        </p>
+        <p><label for="L_birth">Fecha de nacimiento:</label></br>
+          <input type="datetime" name="birth" placeholder="dd/mm/aaaa" required>
+        </p>
+        <p><label for="L_gender">Género:</label></br>
+          <input type="radio" name="Gender" value="Masculino">Masculino</br>
+          <input type="radio" name="Gender" value="Femenino">Femenino
+        </p>
+        <p><label for="L_recomended">Recomendado por:</label></br>
+          <select name="Recomendado">
+            <option value="Google">Google</option>
+            <option value="Friends">Amigos</option>
+            <option value="SocialNetwork">Redes Sociales</option>
+          </select>
+          <p><label for="L_comment">Comentarios:</label></br>
+            <textarea name="Comments"></textarea>
+          </p>
+          <p><label for="L_termCon">Acepto términos y condiciones:</label></br>
+            <input type="checkbox" name="TermCon">
+          </p>
+          <p><input type="submit"></p>
+        </p>
+      </fieldset>
+    </form>
+  </body>
+</html>
