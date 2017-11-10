@@ -26,3 +26,7 @@ footer{
 #menu-principal{
   padding: 10px 0px;
 }
+
+h1 + p{
+  background-color: blue;
+}
