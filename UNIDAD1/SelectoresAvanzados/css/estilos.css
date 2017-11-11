@@ -18,3 +18,26 @@ p:nth-child(3){
 p, label{
 	font-family: Tahoma;
 }
+
+h1 + h2{
+  text-decoration-line: line-through;
+}
+
+body ~ p{
+  background-color: blue;;
+}
+
+a:hover{
+  color: black;
+}
+
+input:focus{
+  width: 160px;
+  height: 140px;
+  font-family: cursive;
+  background-color: blue;
+}
+
+p::first-letter{
+  color: red;
+}
