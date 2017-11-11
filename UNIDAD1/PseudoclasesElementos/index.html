@@ -8,18 +8,20 @@
   </head>
   <body>
     <h1>Cartelera de vuelos - Aeropuerto el Mirados</h1>
-    <nav id="menu-principal">
+    <navbar id="menu-principal">
       <a href="vuelos_por_hora.html">Vuelos por hora</a>
       <a href="vuelos_por_destino.html">Vuelos por destino</a>
-    </nav>
+    </navbar>
     <h2>Llegadas</h2>
-    <table border="1">
+    <table>
       <thead>
-        <th>Aerolínea</th>
-        <th>Nro. Vuelo</th>
+        <tr>
+          <th>Aerolínea</th>
+          <th>Nro. Vuelo</th>
           <th>Estatus</th>
           <th>Hora Estimada</th>
           <th>Puerta</th>
+        </tr>
       </thead>
       <tbody>
         <tr>
@@ -45,8 +47,9 @@
         </tr>
       </tbody>
     </table>
+
     <h2>Salidas</h2>
-    <table border="1">
+    <table class="sombra">
       <thead>
         <th>Aerolínea</th>
         <th>Nor. Vuelo</th>
@@ -64,6 +67,7 @@
         </tr>
       </tbody>
     </table>
+    
   <footer>
     <p>Derechos reservados</p>
   </footer>

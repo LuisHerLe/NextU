@@ -1,16 +1,15 @@
 body{
   margin: 20px;
-}
-#menu-principal{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 0px;
-  padding-right: 0px;
+  font-family: verdana;
 }
 
-#menu-principal a + a::before {
-content: " | ";
-color: black;
+table{
+  border-collapse: collapse;
+}
+
+table, th, td {
+	border: solid 1px black;
+	padding: 10px;
 }
 
 footer{
@@ -20,15 +19,35 @@ footer{
   text-align: center;
 }
 
-th{
-  padding: 10px;
-  border: 1px
-}
-td{
-  padding: 10px;
-  border: 1px
+#menu-principal{
+  padding: 10px 0px;
 }
 
-table{
-  border-collapse: collapse;
+#menu-principal a + a::before {
+content: " | ";
+color: black;
+}
+
+#menu-principal a:hover{
+  text-decoration: underline;
+}
+
+tbody tr:nth-child(even) {
+	background: #CCC;
+}
+
+tbody tr:nth-child(odd) {
+	background: #CCF;
+}
+
+tbody tr:nth-child(even):hover {
+	background: #DDD;
+}
+
+tbody tr:nth-child(odd):hover {
+	background: #DDF;
+}
+
+.sombra {
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
 }
