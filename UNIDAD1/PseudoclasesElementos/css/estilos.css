@@ -1,0 +1,34 @@
+body{
+  margin: 20px;
+}
+#menu-principal{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#menu-principal a + a::before {
+content: " | ";
+color: black;
+}
+
+footer{
+  margin-top: 20px;
+  border-top: solid 1px black;
+  padding-top: 10px;
+  text-align: center;
+}
+
+th{
+  padding: 10px;
+  border: 1px
+}
+td{
+  padding: 10px;
+  border: 1px
+}
+
+table{
+  border-collapse: collapse;
+}
